@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Division practice</title>
+        <style>
+            #parent{
+                height: 600px;
+                width: 700px;
+                border: 2px solid black;
+                text-align: center;
+            }
+            #one{
+                height: 100px;
+                width: 700px;
+                background-color: aqua;
+            }
+            #two{
+                height: 400px;
+                width: 700px;
+            }
+            #left{
+                height: 400px;
+                width: 95px;
+                background-color: gray;
+                border: 2px solid black;
+                float: left;
+            }
+            #center{
+                height: 400px;
+                width: 500px;
+                border: 2px solid black;
+                float: left;
+            }
+            #right{
+                height: 400px;
+                width: 95px;
+                border: 2px solid black;
+                float: left;
+                background-color: coral;
+            }
+            #three{
+                height: 100px;
+                width: 700px;
+                background-color: chartreuse;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            <div id="one">HEAD</div>
+            <div id="two">
+                <div id="left">LEFT</div>
+                <div id="center">BODY</div>
+                <div id="right">RIGHT</div>
+            </div>
+            <div id="three">FOOT</div>
+        </div>
+    </body>
+</html>
